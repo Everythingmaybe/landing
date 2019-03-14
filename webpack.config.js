@@ -36,7 +36,7 @@ const lintJSOptions = {
   getPaths({ css: '' })
 
   Defaults values:
-     sourceDir - 'app',
+     sourceDir - 'src',
       buildDir - 'build',
      staticDir - '',
 
@@ -214,8 +214,8 @@ module.exports = env => {
 }
 
 function getPaths ({
-  sourceDir = 'app',
-  buildDir = 'build',
+  sourceDir = 'src',
+  buildDir = 'dist',
   staticDir = '',
   images = 'images',
   fonts = 'fonts',

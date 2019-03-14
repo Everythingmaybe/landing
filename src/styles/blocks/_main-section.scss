@@ -1,0 +1,13 @@
+.main-section {
+  width: calc(100% - 150px);
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: auto;
+  transition: .3s width;
+  @include media($screen-xs) {
+    width: calc(100% - 200px);
+  }
+  @include media($screen-sm) {
+    width: calc(100% - 300px);
+  }
+}

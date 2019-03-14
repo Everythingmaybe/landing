@@ -101,7 +101,7 @@
     "scss"
   ],
   "license": "MIT",
-  "main": "./app/scripts/index.js",
+  "main": "./src/scripts/index.js",
   "name": "webpack-pug-scss-boiperplate",
   "repository": {
     "type": "git",

@@ -1,0 +1,23 @@
+.sidebar {
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $main-color;
+  color: $secondary-color;
+  box-shadow: 0 16px 24px 2px rgba(0,0,0,0.14),
+              0 6px 30px 5px rgba(0,0,0,0.12),
+              0 8px 10px -7px rgba(0,0,0,0.2);
+  transition: .3s width;
+  @include media($screen-xs) {
+    width: 200px;
+  }
+  @include media($screen-sm) {
+    width: 300px;
+  }
+}
